@@ -2,7 +2,7 @@
 
 We have the following code...
 
-```
+```js
 var key,
     obj = {
         name: 'john',
@@ -20,20 +20,24 @@ for ( key in obj ) {
 }
 ```
 ... and the result of executing it is...
+
 ```
 name exist in obj
 name: john
 surname exist in obj
 surname: doe
 ```
+
 ... but we want to get the following result, can you help us?
+
 ```
 name doesn't exist in obj
 surname exist in obj
 surname: doe
 ```
----
 
+
+---
 Write the code to get the expected result.
 
 ```js
@@ -53,7 +57,6 @@ for ( key in obj ) {
     console.log( key + " doesn't exist in obj" );
 }
 ```
-
 ```js
 var key,
     obj = {
@@ -77,11 +80,9 @@ for ( key in obj ) {
     console.log( key + " doesn't exist in obj" );
 }
 ```
-
 ```js
 assert(items.length == 3 && items[0] == 'name doesn\'t exist in obj' && items[1] == 'surname exist in obj' && items[2] == 'surname: doe');
 ```
-
 ```js
 var items = [];
 var backConsole = console;
@@ -97,6 +98,4 @@ var console = {
     }
 };
 ```
-
-
 ---

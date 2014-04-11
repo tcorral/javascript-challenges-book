@@ -12,14 +12,14 @@ console.log( '#2:', 'mañana' === 'mañana' );
 
 ---
 
-Why the first execution of console.log logs '#1: true'?
+Why the first execution of console.log logs **#1: true**?
 
 ```js
 
 ```
 
 ```js
-
+It logs true because the two words are the same characters.
 ```
 
 ```js
@@ -31,14 +31,14 @@ assert(true);
 
 ---
 
-Why the second execution of console.log logs '#2: false'?
+Why the second execution of console.log logs **#2: false**?
 
 ```js
 
 ```
 
 ```js
-
+It logs false because the encoding of characters and the character ñ contains( n and ̃ ) it's an issue with UTF8 encoding.
 ```
 
 ```js

@@ -53,7 +53,7 @@ Please explain why Number.MAX_VALUE has not been added:
 ```
 
 ```js
-
+Number.MAX_VALUE can't be handled properly by Javascript to work with it in operations because the overflow issue.
 ```
 
 ```js

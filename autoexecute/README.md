@@ -3,8 +3,8 @@
 I want to set variable 'a' to 3 using a Self Invoking Function, can you help me?
 
 ```
-var a;
-function test() { a = 3; }();
+var testValue;
+function test() { testValue = 3; }();
 ```
 
 ---
@@ -27,7 +27,7 @@ assert(true);
 
 ---
 
-What is the value of variable 'a'?
+What is the value of variable 'testValue'?
 
 ```js
 
@@ -53,7 +53,7 @@ Why?
 ```
 
 ```js
-
+The value of testValue is undefined because the function has not been autoexecuted.
 ```
 
 ```js
@@ -67,17 +67,17 @@ assert(true);
 Write the code to execute this function adding only one more character to the sentence.
 
 ```js
-var a;
-function test() { a = 3; }();
+var testValue;
+function test() { testValue = 3; }();
 ```
 
 ```js
-var a;
-!function test() { a = 3; }();
+var testValue;
+!function test() { testValue = 3; }();
 ```
 
 ```js
-assert(a == 3);
+assert(testValue == 3);
 ```
 
 ---

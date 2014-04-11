@@ -25,7 +25,7 @@ var yourChange = calculateChange();
 What returns calculateAmountOfStockOptions ? Input the number value.
 
 ```js
-var stockOptions =
+var stockOptions = ;
 ```
 
 ```js
@@ -43,7 +43,7 @@ assert(stockOptions == 1.94392523364486);
 What is the value of calculateChange ? Input the number value.
 
 ```js
-var change =
+var change = ;
 ```
 
 ```js
@@ -65,7 +65,7 @@ Why?
 ```
 
 ```js
-
+'Javascript has several problems operating with floating point, this is one of the causes that it should not be to operate with floats.'
 ```
 
 ```js

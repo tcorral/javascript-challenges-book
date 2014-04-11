@@ -25,7 +25,7 @@ Why this is happening?
 ```
 
 ```js
-This is happening because the hoisting problem. Remember that in Javascript there are no block variables.
+'This is happening because the hoisting problem. Remember that in Javascript there are no block variables.'
 ```
 
 ```js

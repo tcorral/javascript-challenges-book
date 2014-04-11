@@ -1,7 +1,10 @@
 # Exit nested loop
 
+How to exit of a nested loop.
+
 ---
-Make the modifications to the following code so that  when it's executed it should exit the first time indexInnderLoop has a value of 10 and indexOuterLoop has a value of 0.
+
+Make the modifications to the following code so that  when it's executed it should exit the first time indexInnerLoop has a value of 10 and indexOuterLoop has a value of 0.
 
 ```js
 var indexOuterLoop, iterationsOuterLoop = 1000, indexInnerLoop, iterationsInnerLoop = 100;
@@ -59,4 +62,5 @@ var console = {
     }
 };
 ```
+
 ---

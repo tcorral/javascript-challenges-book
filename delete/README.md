@@ -13,6 +13,7 @@ Animal = function(){};
 Animal.prototype.name = 'animal';
 
 mammal = new Animal();
+mammal.name = 'mammal';
 
 delete name;
 
@@ -46,57 +47,65 @@ The execution of this code logs:
 ```
 
 ---
-Why #1: John is logged?
+
+Why **#1: John** is logged?
 
 ```js
 
 ```
 ```js
-
-```
-```js
-assert(true);
-```
----
-
----
-Why #2: undefined is logged?
-
-```js
-
-```
-```js
-
+John is logged because name is a global variable and global variables can't be deleted.
 ```
 ```js
 assert(true);
 ```
+
 ---
 
 ---
-Why #3: function toString() { [native code] } is logged?
+
+Why **#2: undefined** is logged?
 
 ```js
 
 ```
 ```js
-
+undefined is logged because we have deleted the name property of obj, properties or members of objects can be deleted excluding the properties or members of the global object.
 ```
 ```js
 assert(true);
 ```
+
 ---
 
 ---
-Why #4: animal is logged?
+
+Why **#3: function toString() { [native code] }** is logged?
 
 ```js
 
 ```
 ```js
-
+function toString() { [native code] } is logged because toString is an inherited method from Object and inherited methods or members can't be deleted.
 ```
 ```js
 assert(true);
 ```
+
+---
+
+---
+
+Why **#4: animal** is logged?
+
+```js
+
+```
+```js
+animal is logged because we have deleted the own mammal.name property but the inherited property is shown.
+```
+```js
+assert(true);
+```
+
 ---

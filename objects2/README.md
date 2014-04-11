@@ -49,7 +49,7 @@ Explain what this is happening:
 ```
 
 ```js
-
+'This is happening because when the closure has been executed it has saved the reference in memory for oPerson as oTeacher and even when oPerson has changed the assigned value to a different object it continues being referenced inside the closure. It is important to check this problems because if you make the same with DOM elements and the element is removed from the DOM tree you will get memory leaks issues'
 ```
 
 ```js
