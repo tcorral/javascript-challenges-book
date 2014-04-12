@@ -42,7 +42,7 @@ Object { name: "john", surname: "doe" }
 
 ---
 
-Explain what this is happening:
+Explain why this is happening:
 
 ```js
 
