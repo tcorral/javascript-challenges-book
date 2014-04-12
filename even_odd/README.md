@@ -2,7 +2,7 @@
 
 We have the following code that should return only the odd numbers in reverse order that are in values...
 
-```
+```js
 (function() {
     var values = [3, 8, '15', Number.MAX_VALUE, Infinity, -23],
         oddValues = [],
@@ -21,11 +21,11 @@ We have the following code that should return only the odd numbers in reverse or
 }());
 ```
 
-...but when this code is executed we get [-23, Infinity, "15", 3].
+...but when this code is executed we get ``[-23, Infinity, "15", 3]``.
 
-Ah! Maybe Number.MAX_VALUE is a even number then why not deduct 1 and check it again?
+Ah! Maybe Number.MAX_VALUE is a even number then why not substract 1 and check it again?
 
-```
+```js
 (function() {
     var values = [3, 8, '15', (Number.MAX_VALUE -1), Infinity, -23],
         oddValues = [],
@@ -43,7 +43,7 @@ Ah! Maybe Number.MAX_VALUE is a even number then why not deduct 1 and check it a
     console.log( oddValues );
 }());
 ```
-...but when this code is executed I get [-23, Infinity, "15", 3] again.
+...but when this code is executed we get ``[-23, Infinity, "15", 3]`` again.
 
 ---
 Please explain why Number.MAX_VALUE has not been added:
