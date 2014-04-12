@@ -8,7 +8,7 @@ As you know Javascript has two different ways to treat the data it receives as a
 See the following code:
 
 ```
-var oPerson = { name: 'john'};
+var oPerson = { name: 'john' };
 
 (function(oTeacher) {
    window.getTeacher= function() {
