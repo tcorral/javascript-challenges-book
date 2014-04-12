@@ -1,5 +1,5 @@
 # Spartacus
-I like so much Spartacus TV Series so that I have written the following code to get the name of the different seasons but something goes wrong...
+I like the TV series Spartacus so much, that I have written the following code to get the name of the different seasons but something goes wrong...
 ```
 var season = 'first';
 
@@ -17,8 +17,7 @@ var result = ('Spartacus: ' + season === 'first' ? 'Blood and Sand' : 'Gods of t
 
 ```js
 var season = 'first';
-var result = ('Spartacus: ' +
-                ((season === 'first') ? 'Blood and Sand' : 'Gods of the Arena') );
+var result = 'Spartacus: ' + (season === 'first' ? 'Blood and Sand' : 'Gods of the Arena');
 ```
 
 ```js
