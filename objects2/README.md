@@ -8,7 +8,7 @@ As you know Javascript has two different ways to treat the data it receives as a
 See the following code:
 
 ```
-var oPerson = { name: 'john'};
+var oPerson = { name: 'john' };
 
 (function(oTeacher) {
    window.getTeacher= function() {
@@ -42,7 +42,7 @@ Object { name: "john", surname: "doe" }
 
 ---
 
-Explain what this is happening:
+Explain why this is happening:
 
 ```js
 
@@ -60,7 +60,10 @@ assert(true);
 
 ---
 
-Fix the code to :
+Fix the code to make the third execution return
+```
+Object { name: "mary", surname: "sullivan" }
+```
 
 ```js
 var oPerson = { name: 'john'};

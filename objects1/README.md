@@ -12,7 +12,7 @@ var key,
 
 for ( key in obj ) {
     if ( obj.hasOwnProperty( key ) ) {
-       console.log( key + ' exist in obj' );
+       console.log( key + ' exists in obj' );
        console.log( key + ': ' + obj[key] );
        continue;
     }
@@ -22,9 +22,9 @@ for ( key in obj ) {
 ... and the result of executing it is...
 
 ```
-name exist in obj
+name exists in obj
 name: john
-surname exist in obj
+surname exists in obj
 surname: doe
 ```
 
@@ -32,7 +32,7 @@ surname: doe
 
 ```
 name doesn't exist in obj
-surname exist in obj
+surname exists in obj
 surname: doe
 ```
 
@@ -50,7 +50,7 @@ var key,
 
 for ( key in obj ) {
     if ( obj.hasOwnProperty( key ) ) {
-       console.log( key + ' exist in obj' );
+       console.log( key + ' exists in obj' );
        console.log( key + ': ' + obj[key] );
        continue;
     }
@@ -73,7 +73,7 @@ Object.prototype.hasOwnProperty = function (key) {
 
 for ( key in obj ) {
     if ( obj.hasOwnProperty( key ) ) {
-       console.log( key + ' exist in obj' );
+       console.log( key + ' exists in obj' );
        console.log( key + ': ' + obj[key] );
        continue;
     }
@@ -81,7 +81,7 @@ for ( key in obj ) {
 }
 ```
 ```js
-assert(items.length == 3 && items[0] == 'name doesn\'t exist in obj' && items[1] == 'surname exist in obj' && items[2] == 'surname: doe');
+assert(items.length == 3 && items[0] == 'name doesn\'t exist in obj' && items[1] == 'surname exists in obj' && items[2] == 'surname: doe');
 ```
 ```js
 var items = [];

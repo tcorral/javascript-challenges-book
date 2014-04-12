@@ -1,6 +1,6 @@
 # Hoisting and Conditionals Statements
 
-I'm Ernie and my friend is Bert and we wrote this code to tell other people which typeo of birds we like.
+I'm Ernie and my friend is Bert and we wrote this code to tell other people which type of birds we like.
 
 ```
 var bird = 'Pidgeons';
