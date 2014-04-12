@@ -60,7 +60,10 @@ assert(true);
 
 ---
 
-Fix the code to :
+Fix the code to make the third execution return
+```
+Object { name: "mary", surname: "sullivan" }
+```
 
 ```js
 var oPerson = { name: 'john'};
