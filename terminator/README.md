@@ -15,7 +15,7 @@ Here you have the prototype code of the next Terminator fan page:
     </body>
 </html>
 ```
-One of my colleagues have written the next code that will log the name we send using the form in the previous page.
+One of my colleagues has written the next code that will log the name we send using the form in the previous page.
 ```
 <script>
     function sayonara( name ) {
@@ -25,12 +25,12 @@ One of my colleagues have written the next code that will log the name we send u
     sayonara( greetings );
 </script>
 ```
-But then someone sent the next message as a name and the behaviour of the page has changed...
+But then someone sends the next message as a name and the behaviour of the page changes...
 ```
 '</script><script>console.log("I will come back!")</script><script>'
 ```
 
-Here is an example of execute the page with the bug:
+Here is an example of executing the page with the bug:
 ```
 <!DOCTYPE html>
 <html>
