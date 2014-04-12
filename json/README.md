@@ -15,7 +15,7 @@ console.log( parentStringified === '{ "name": "peter", "surname": "doe" }');
 
 ---
 
-Write the code needed to get the expected result without change obj.name and obj.surname values:
+Write the code needed to get the expected result without changing the values of ``obj.name`` and ``obj.surname`` values:
 
 ```js
 var obj = {
