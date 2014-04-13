@@ -23,7 +23,7 @@ It logs true because the two words are the same characters.
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 
 ---
@@ -42,7 +42,7 @@ It logs false because the encoding of characters and the character ñ contains( 
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 
 ---

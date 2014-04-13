@@ -51,23 +51,40 @@ $( document ).ready( function() {
 } );
 ```
 ```js
+function delayTimer(delay){
+  var timer;
+    return function(fn){
+      timer = clearTimeout(timer);
+      if(fn)
+        timer = setTimeout(function() {
+           fn();
+        },delay);
+
+      return timer;
+  };
+}
+var delayer = delayTimer(500);
+
 $( document ).ready( function() {
   $( '#inputSearch' ).keyup( function() {
-      $.ajax( {
-        url: 'http://www.domain.com/search',
-        data: this.value,
-        success: function ( data )
-        {
-            var results = data.results;
-            $( '#list' ).empty();
-            $.each( data, function ( item ) {
-                $( '#list' ).append( '<li>' + item + '</li>' );
-            } );
+      delayer(function() {
+        var $list = $( '#list' );
+        $.ajax( {
+          url: 'http://www.domain.com/search',
+          data: this.value,
+          success: function ( data )
+          {
+              var results = data.results;
+              $list.empty();
+              $.each( data, function ( item ) {
+                  $list.append( '<li>' + item + '</li>' );
+              } );
 
-        },
-        error: function ( xhr, status, error ) {
-            console.log( 'Something goes wrong!', status, error.message );
-        }
+          },
+          error: function ( xhr, status, error ) {
+              console.log( 'Something goes wrong!', status, error.message );
+          }
+        } );
       } );
   } );
 } );
@@ -79,6 +96,9 @@ assert(counter === 1);
 ```js
 var document = '';
 var counter = 0;
+var setTimeout = function (cb) {
+    cb();
+};
 var $ = function ( element ) {
     var jQuery = {
         ready: function ( callback ) {

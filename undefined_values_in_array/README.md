@@ -22,15 +22,15 @@ console.log(JSON.stringify(arr));
 What will be shown in the console if we execute Snippet 1?
 
 ```js
-var result = ;
+
 ```
 
 ```js
-var result = '[null,null,null,null,null,null,null,null,null,null]';
+[null,null,null,null,null,null,null,null,null,null]
 ```
 
 ```js
-assert(result === '[null,null,null,null,null,null,null,null,null,null]');
+__match_answer_and_solution__
 ```
 
 ---
@@ -48,7 +48,7 @@ When JSON.stringify is called it call toJSON method of object but undefined is n
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 
 ---
@@ -64,15 +64,15 @@ console.log(arr.toString());
 What will be shown in the console if we execute Snippet 2?
 
 ```js
-var result = ;
+
 ```
 
 ```js
-var result = ",,,,,,,,,";
+",,,,,,,,,"
 ```
 
 ```js
-assert(result === ",,,,,,,,,");
+__match_answer_and_solution__
 ```
 
 ---
@@ -90,7 +90,7 @@ When the toString of arr is called it returns an empty string for each undefined
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 
 ---

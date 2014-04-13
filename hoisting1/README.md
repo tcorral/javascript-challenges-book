@@ -25,11 +25,11 @@ Why this is happening?
 ```
 
 ```js
-'This is happening because the hoisting problem. Remember that in Javascript there are no block variables.'
+This is happening because the hoisting problem. Remember that in Javascript there are no block variables.
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 
 ---
@@ -63,7 +63,18 @@ var bird = 'Pidgeons';
 ```
 
 ```js
-assert(true);
+assert(inputs[0] === 'Bert loves his Pidgeons');
 ```
 
+```js
+var inputs = [];
+var backConsole = console;
+var console = {
+    log: function (str) {
+        inputs.push(str);
+        backConsole.log(str);
+        console = backConsole;
+    }
+};
+```
 ---

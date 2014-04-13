@@ -22,18 +22,18 @@ var yourChange = calculateChange();
 
 ---
 
-What returns calculateAmountOfStockOptions ? Input the number value.
+What returns calculateAmountOfStockOptions ?
 
 ```js
-var stockOptions = ;
+
 ```
 
 ```js
-var stockOptions = 1.94392523364486;
+1.94392523364486
 ```
 
 ```js
-assert(stockOptions == 1.94392523364486);
+__match_answer_and_solution__
 ```
 
 ---
@@ -43,15 +43,15 @@ assert(stockOptions == 1.94392523364486);
 What is the value of calculateChange ? Input the number value.
 
 ```js
-var change = ;
+
 ```
 
 ```js
-var change = 10.100000000000001;
+10.100000000000001
 ```
 
 ```js
-assert(change == 10.100000000000001);
+__match_answer_and_solution__
 ```
 
 ---
@@ -65,11 +65,11 @@ Why?
 ```
 
 ```js
-'Javascript has several problems operating with floating point, this is one of the causes that it should not be to operate with floats.'
+Javascript has several problems operating with floating point, this is one of the causes that it should not be to operate with floats.
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 
 ---

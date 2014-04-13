@@ -39,6 +39,6 @@ Why does calling the previous statement returns false?
 You have to be careful when using |= because when it's used to perform a test besides an object it will not modify the original value, then it remains to be zero.
 ```
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---

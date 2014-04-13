@@ -18,7 +18,7 @@ ReferenceError: c is not defined
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---
 
@@ -33,6 +33,6 @@ The cause of the error is because Javascript only has not block scopes as in oth
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---

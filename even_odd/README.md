@@ -57,7 +57,7 @@ Number.MAX_VALUE can't be handled properly by Javascript to work with it in oper
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---
 

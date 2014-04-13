@@ -29,7 +29,7 @@ Because the precedence of operators, the execution workflow is:
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---
 
@@ -54,6 +54,6 @@ Because the precedence of operators and how native methods behaviours, the execu
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---

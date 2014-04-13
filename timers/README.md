@@ -25,7 +25,7 @@ Why this is happening?
 As you should know Javascript is single threaded then when we launch this code the while statement doesn't free the thread because the continuos execution blocking any other statement to be executed and blocks the change of 'check' to true blocking the environment where it's executed.
 ```
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---
 

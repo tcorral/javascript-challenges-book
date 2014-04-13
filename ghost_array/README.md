@@ -13,13 +13,13 @@ console.log(arr.length);
 What is the result of execute "Snippet 1" code?
 
 ```js
-var result = ;
+
 ```
 ```js
-var result = 1000;
+1000
 ```
 ```js
-assert(result === 1000);
+__match_answer_and_solution__
 ```
 ---
 
@@ -34,13 +34,13 @@ console.log(arr.length);
 What is the result of execute "Snippet 2" code?
 
 ```js
-var result = ;
+
 ```
 ```js
-var result = 0;
+0
 ```
 ```js
-assert(result === 0);
+__match_answer_and_solution__
 ```
 ---
 
@@ -54,7 +54,7 @@ Why?
 Because 4294967295 overflows the max number of elements that could be handled by Javascript in Arrays.
 ```
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---
 
@@ -70,13 +70,13 @@ console.log(arr[4294967295]);
 What is the result of execute "Snippet 3" code?
 
 ```js
-var result = ;
+
 ```
 ```js
-var result = "james";
+"james"
 ```
 ```js
-assert(result === "james");
+__match_answer_and_solution__
 ```
 ---
 
@@ -90,7 +90,7 @@ Why?
 Javascript arrays can work as objects, dictionaries, when you are using as key any value that can not be handled by Array objects.
 ```
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---
 
@@ -106,13 +106,13 @@ console.log(arr.length);
 What is the result of execute "Snippet 4" code?
 
 ```js
-var result = ;
+
 ```
 ```js
-var result = 0;
+0
 ```
 ```js
-assert(result === 0);
+__match_answer_and_solution__
 ```
 ---
 
@@ -126,7 +126,7 @@ Why?
 Javascript arrays can work as objects, dictionaries, when you are using as key any value that can not be handled by Array objects.
 ```
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---
 
@@ -142,13 +142,13 @@ console.log(arr[Number.MIN_VALUE]);
 What is the result of execute "Snippet 5" code?
 
 ```js
-var result = ;
+
 ```
 ```js
-var result = "mary";
+"mary"
 ```
 ```js
-assert(result === "mary");
+__match_answer_and_solution__
 ```
 ---
 
@@ -162,6 +162,6 @@ Why?
 Javascript arrays can work as objects, dictionaries, when you are using as key any value that can not be handled by Array objects.
 ```
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---

@@ -65,6 +65,6 @@ The execution of Snippet 3 shows "That's true" because when the code has been ev
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---

@@ -20,7 +20,7 @@ SyntaxError: Unexpected token )
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 
 ---
@@ -38,7 +38,7 @@ undefined
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 
 ---
@@ -57,7 +57,7 @@ The value of testValue is undefined because the function has not been autoexecut
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 
 ---

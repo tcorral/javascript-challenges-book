@@ -45,7 +45,7 @@ When we execute the previous code, this is that it's executed when we run the Sn
  * parseInt(1000000, 6)     => 46656
 ```
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---
 

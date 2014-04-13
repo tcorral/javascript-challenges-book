@@ -20,7 +20,7 @@ ReferenceError: g is not defined
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---
 
@@ -36,6 +36,6 @@ When a function expression has a named function it can only be accessed using th
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---

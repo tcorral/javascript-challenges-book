@@ -67,7 +67,6 @@ function sayonara( name ) {
 sayonara( '<\/script><script>console.log("I will come back!")<\/script><script>' );
 ```
 ```js
-console.log(result);
 assert(result === 'Sayonara <\/script><script>console.log("I will come back!")<\/script><script>!');
 ```
 

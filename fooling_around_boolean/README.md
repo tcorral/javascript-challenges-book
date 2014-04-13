@@ -22,7 +22,7 @@ Why does xor resolves in an unexpected manner?
 Because this is not false, this inside the function is the complete object and it evaluates to true when it's converted to true the same way that !!{} is true.
 ```
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 
 ---

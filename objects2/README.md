@@ -49,21 +49,18 @@ Explain why this is happening:
 ```
 
 ```js
-'This is happening because when the closure has been executed it has saved the reference in memory for oPerson as oTeacher and even when oPerson has changed the assigned value to a different object it continues being referenced inside the closure. It is important to check this problems because if you make the same with DOM elements and the element is removed from the DOM tree you will get memory leaks issues'
+This is happening because when the closure has been executed it has saved the reference in memory for oPerson as oTeacher and even when oPerson has changed the assigned value to a different object it continues being referenced inside the closure. It is important to check this problems because if you make the same with DOM elements and the element is removed from the DOM tree you will get memory leaks issues
 ```
 
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 
 ---
 
 ---
 
-Fix the code to make the third execution return
-```
-Object { name: "mary", surname: "sullivan" }
-```
+Fix the code to make the third execution return ``Object { name: "mary", surname: "sullivan" }``
 
 ```js
 var oPerson = { name: 'john'};

@@ -24,12 +24,12 @@ What does it prints?
 
 ```
 ```js
-'Mary'
-'undefined'
-'John'
+"Mary"
+undefined
+"John"
 ```
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---
 
@@ -43,6 +43,6 @@ It logs Mary because the context of execution is obj.
 It logs John because setTimeout is executed in the global context.
 ```
 ```js
-assert(true);
+__match_answer_and_solution__
 ```
 ---
