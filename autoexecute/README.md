@@ -1,6 +1,6 @@
 # Self Invoking Functions
 
-I want to set variable 'a' to 3 using a Self Invoking Function, can you help me?
+I want to set variable 'testValue' to 3 using a Self Invoking Function, can you help me?
 
 ```
 var testValue;
