@@ -1,4 +1,5 @@
 var path = require("path");
+var exec = require("child_process").exec;
 
 module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-gitbook');
@@ -31,5 +32,27 @@ module.exports = function (grunt) {
     'gh-pages',
     'clean'
   ]);
-  grunt.registerTask('default', 'gitbook');
+  grunt.registerTask('pdf', function (grunt){
+    var done = this.async();
+    exec('gitbook pdf ./', function (err, stdout, stderr) {
+      if(err){
+        console.log('exec error:' + error);
+      }
+      console.log('stderr:', stderr);
+      console.log('stdout:', stdout);
+      done();
+    })
+  });
+  grunt.registerTask('epub', function (grunt){
+    var done = this.async();
+    exec('gitbook ebook ./', function (err, stdout, stderr) {
+      if(err){
+        console.log('exec error:' + error);
+      }
+      console.log('stderr:', stderr);
+      console.log('stdout:', stdout);
+      done();
+    })
+  });
+  grunt.registerTask('default', ['gitbook', 'pdf', 'epub']);
 };
