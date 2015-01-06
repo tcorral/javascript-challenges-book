@@ -11,4 +11,4 @@ Feedback is welcome.
 
 Thanks a lot to [GITBOOK team](http://www.gitbook.io/) for it's amazing project to write your own books using Github repos.
 
-If you want to get access to the book in PDF, EPUB, MOBI and Online format you can buy it in [Javascript Challenges Book](http://amischol.gitbooks.io/javascript_challenges/)
+If you want to get access to the book in PDF, EPUB, MOBI and Online format you can buy it in [Javascript Challenges Book](http://amischol.gitbooks.io/javascript_challenges/) it's just 3$.
