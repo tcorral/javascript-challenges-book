@@ -35,7 +35,7 @@ Array.prototype.map has three arguments that pass to the callback we set as argu
 When we check the specifications of parseInt we can see that parseInt could receive two arguments.
 The former is the string to be parsed and the latter is the ratio to convert the value.
 
-When we execute the previous code, this is that it's executed when we run the Snippet 1 code:
+When we run Snippet 1 code, the following is actually executed:
  * parseInt(1, 0)           => 1
  * parseInt(10, 1)          => NaN
  * parseInt(100, 2)         => 4
