@@ -32,6 +32,7 @@ module.exports = function (grunt) {
     'gh-pages',
     'clean'
   ]);
+
   grunt.registerTask('pdf', function (grunt){
     var done = this.async();
     exec('gitbook pdf ./', function (err, stdout, stderr) {
@@ -43,6 +44,7 @@ module.exports = function (grunt) {
       done();
     })
   });
+
   grunt.registerTask('epub', function (grunt){
     var done = this.async();
     exec('gitbook epub ./', function (err, stdout, stderr) {
@@ -54,6 +56,7 @@ module.exports = function (grunt) {
       done();
     })
   });
+
   grunt.registerTask('mobi', function (grunt){
     var done = this.async();
     exec('gitbook mobi ./', function (err, stdout, stderr) {
