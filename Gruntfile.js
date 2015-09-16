@@ -36,7 +36,7 @@ module.exports = function (grunt) {
     var done = this.async();
     exec('gitbook pdf ./', function (err, stdout, stderr) {
       if(err){
-        console.log('exec error:' + error);
+        console.log('exec error:' + err);
       }
       console.log('stderr:', stderr);
       console.log('stdout:', stdout);
@@ -45,14 +45,25 @@ module.exports = function (grunt) {
   });
   grunt.registerTask('epub', function (grunt){
     var done = this.async();
-    exec('gitbook ebook ./', function (err, stdout, stderr) {
+    exec('gitbook epub ./', function (err, stdout, stderr) {
       if(err){
-        console.log('exec error:' + error);
+        console.log('exec error:' + err);
       }
       console.log('stderr:', stderr);
       console.log('stdout:', stdout);
       done();
     })
   });
-  grunt.registerTask('default', ['gitbook', 'pdf', 'epub']);
+  grunt.registerTask('mobi', function (grunt){
+    var done = this.async();
+    exec('gitbook mobi ./', function (err, stdout, stderr) {
+      if(err){
+        console.log('exec error:' + err);
+      }
+      console.log('stderr:', stderr);
+      console.log('stdout:', stdout);
+      done();
+    })
+  });
+  grunt.registerTask('default', ['gitbook', 'pdf', 'epub', 'mobi']);
 };
