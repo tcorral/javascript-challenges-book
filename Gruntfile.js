@@ -9,7 +9,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     'gitbook': {
       development: {
-        output: path.join(__dirname, ".grunt/gitbook"),
+        output: path.join(__dirname, "docs"),
         input: "./",
         title: "Javascript Challenges",
         description: "Challenge your self to learn and understand the most obscure and tricky parts of Javascript.",
@@ -18,7 +18,7 @@ module.exports = function (grunt) {
     },
     'gh-pages': {
       options: {
-        base: '.grunt/gitbook'
+        base: 'docs'
       },
       src: ['**']
     },
