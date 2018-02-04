@@ -2,7 +2,7 @@
 
 I'm Ernie and my friend is Bert and we wrote this code to tell other people which type of birds we like.
 
-```
+```js
 var bird = 'Pidgeons';
 ( function () {
     if ( typeof bird === 'undefined' ){
